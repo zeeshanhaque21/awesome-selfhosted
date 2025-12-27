@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  webtop:
+    image: lightburn:latest
+    container_name: webtop
+    restart: unless-stopped
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Los_Angeles
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+    volumes:
+      - /home/maker/Documents:/home/abc/Documents
+      - /dev:/dev
+    group_add:
+      - dialout
+    # shm_size: 1gb
+    security_opt:
+      - seccomp:unconfined
+      - apparmor:unconfined
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0
+      - /dev/bus/usb:/dev/bus/usb
+    cap_add:
+      - SYS_RAWIO
