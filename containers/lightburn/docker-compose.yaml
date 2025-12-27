@@ -3,6 +3,7 @@ version: '3.8'
 services:
   webtop:
     image: lightburn:latest
+    platform: linux/arm64
     container_name: webtop
     restart: unless-stopped
     environment:
