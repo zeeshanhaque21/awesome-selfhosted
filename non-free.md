@@ -9,6 +9,7 @@
 - [Software](#software)
   - [Analytics](#analytics)
   - [Automation](#automation)
+  - [Bookmarks and Link Sharing](#bookmarks-and-link-sharing)
   - [Communication - Custom Communication Systems](#communication---custom-communication-systems)
   - [Communication - Email - Complete Solutions](#communication---email---complete-solutions)
   - [Communication - Email - Mailing Lists and Newsletters](#communication---email---mailing-lists-and-newsletters)
@@ -21,6 +22,7 @@
   - [File Transfer & Synchronization](#file-transfer--synchronization)
   - [Games](#games)
   - [Games - Administrative Utilities & Control Panels](#games---administrative-utilities--control-panels)
+  - [Generative Artificial Intelligence (GenAI)](#generative-artificial-intelligence-genai)
   - [Knowledge Management Tools](#knowledge-management-tools)
   - [Maps and Global Positioning System (GPS)](#maps-and-global-positioning-system-gps)
   - [Media Streaming - Video Streaming](#media-streaming---video-streaming)
@@ -61,16 +63,22 @@
 - [n8n](https://n8n.io/) - Free node based Workflow Automation Tool. Easily automate tasks across different services. ([Source Code](https://github.com/n8n-io/n8n)) `Apache-2.0/Commons-Clause` `Nodejs`
 
 
+### Bookmarks and Link Sharing
+
+**[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
+
+- [42links](https://42links.tuxproject.de) - Bookmarking server supporting multiple accounts. ([Source Code](https://code.rosaelefanten.org/42links)) `BSD-3-Clause-No-Military-License` `CommonLisp`
+
+
 ### Communication - Custom Communication Systems
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
-- [Chaskiq](https://chaskiq.io) - Full featured live chat, help center and CRM as an alternative to Intercom & Drift, Crisp and others. ([Source Code](https://github.com/chaskiq/chaskiq)) `AGPL-3.0/Commons-Clause` `Ruby`
-- [Chatwoot](https://www.chatwoot.com) - Customer communication platform (alternative to Intercom & Zendesk). ([Source Code](https://github.com/chatwoot/chatwoot)) `⊘ Proprietary` `Ruby/Docker/K8S`
+- [Chatwoot](https://www.chatwoot.com) - Customer communication platform (alternative to Intercom and Zendesk). ([Source Code](https://github.com/chatwoot/chatwoot)) `⊘ Proprietary` `Ruby/Docker/K8S`
 - [Groupboard](https://www.groupboard.com/products/) - Online whiteboard, audio/video conferencing, screen sharing, shared code editing and optional session recording/playback. `⊘ Proprietary` `Unknown`
 - [PrivMX WebMail](https://privmx.com) - Alternative private mail system - web-based, end-to-end encrypted by design, self-hosted, decentralized, uses independent PKI. Easy to install and administrate, freeware, open-source. `⊘ Proprietary` `PHP`
-- [Virola Messenger](https://virola.io/) - Instant messaging and collaboration tool with private and group chat rooms, continuous voice and video meetings, files sharing, issue tracking with integrated task board. Alternative to Slack and others. `⊘ Proprietary` `C++`
-- [WorkAdventure](https://workadventu.re) - Virtual office / virtual conference application presented as a 16-bit RPG video game. ([Demo](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village), [Source Code](https://github.com/thecodingmachine/workadventure/)) `AGPL-3.0/Commons-Clause` `Docker`
+- [Virola Messenger](https://virola.io/) - Instant messaging and collaboration tool with private and group chat rooms, continuous voice and video meetings, files sharing, issue tracking with integrated task board (alternative to Slack). `⊘ Proprietary` `C++`
+- [WorkAdventure](https://workadventu.re) - Virtual office / virtual conference application presented as a 16-bit RPG video game. ([Demo](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village), [Source Code](https://github.com/workadventure/workadventure)) `AGPL-3.0/Commons-Clause` `Docker`
 
 
 ### Communication - Email - Complete Solutions
@@ -139,7 +147,7 @@
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
-- [FileRun](https://www.filerun.com/) - Complete solution for your files with integration with Google and Office. ([Demo](https://www.filerun.com/demo)) `⊘ Proprietary` `PHP`
+- [FileRun](https://filerun.com/) - Complete solution for your files with integration with Google and Office. ([Demo](https://filerun.com/demo)) `⊘ Proprietary` `PHP`
 - [Resilio Sync](https://www.resilio.com/) - Proprietary peer-to-peer file synchronisation tool. `⊘ Proprietary` `Unknown`
 - [Yetishare](https://yetishare.com) - Powerful file hosting script with support for Amazon S3, Wasabi, Backblaze, local, direct and SFTP storage. ([Demo](https://fhscript.com)) `⊘ Proprietary` `PHP`
 
@@ -159,6 +167,13 @@
 - [GameVault](https://gamevau.lt) - Organize, download, and play DRM-free games from your own server, complete with metadata enrichment and user-friendly interface. ([Demo](https://demo.gamevau.lt), [Source Code](https://github.com/Phalcode/gamevault-backend)) `CC-BY-NC-SA-4.0` `Nodejs/Docker`
 
 
+### Generative Artificial Intelligence (GenAI)
+
+**[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
+
+- [LobeHub](https://www.lobehub.com) - Modern design AI chat framework supporting multiple AI providers, one click install MCP Marketplace and Artifacts / Thinking. ([Demo](https://www.lobechat.com), [Source Code](https://github.com/lobehub/lobe-chat), [Clients](https://lobehub.com/mcp)) `⊘ Proprietary` `Nodejs/Docker`
+
+
 ### Knowledge Management Tools
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
@@ -171,6 +186,7 @@
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
 - [MapTiler Server](https://www.maptiler.com/server/) - Host OpenStreetMap vector tiles, satellite imagery, own geodata and data from PostGIS database. `⊘ Proprietary` `Unknown`
+- [TRIP](https://itskovacs-trip.netlify.app/) - Minimalist POI Map tracker and Trip planner. ([Demo](https://itskovacs-trip.netlify.app/home), [Source Code](https://github.com/itskovacs/trip)) `CC-BY-NC-4.0` `Docker`
 
 
 ### Media Streaming - Video Streaming
@@ -189,7 +205,7 @@
 
 - [Keygen](https://keygen.sh/) - Software licensing and distribution API. ([Source Code](https://github.com/keygen-sh/keygen-api)) `⊘ Proprietary` `Ruby`
 - [RemoteUtilities](https://www.remoteutilities.com/) - Remote support software for LAN administration and remote support over the Internet. `⊘ Proprietary` `Unknown`
-- [ScreenConnect](https://www.connectwise.com/platform/unified-management/control) - Lightning-fast remote support and remote access to connect instantly and solve problems faster. `⊘ Proprietary` `Unknown`
+- [ScreenConnect](https://www.screenconnect.com/) - Lightning-fast remote support and remote access to connect instantly and solve problems faster. `⊘ Proprietary` `Unknown`
 
 
 ### Money, Budgeting & Management
@@ -205,7 +221,6 @@
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
-- [Lomorage](https://lomorage.com/) - Google photo alternative via simple self-hosting software. Supported clients: iOS, Android, Web, MAC/Windows. Backend can run on Raspberry pi, Armbian, MAC/Windows/Linux. ([Source Code](https://github.com/lomorage/homepage)) `⊘ Proprietary` `Go`
 - [PhotoStructure](https://photostructure.com/) - All your family's photos and videos automatically organized into a fun and beautiful website. Runs via Docker, NodeJS, or native desktop installers. `⊘ Proprietary` `Nodejs`
 - [Reservo](https://reservo.co) - Scalable image hosting script with support for CDNs, paid account upgrades, advertising spots and drag & drop upload. ([Demo](https://demo.reservo.co/)) `⊘ Proprietary` `PHP`
 - [Single File PHP Gallery](http://sye.dk/sfpg/) - Web gallery in one single PHP file. `⊘ Proprietary` `PHP`
@@ -306,6 +321,7 @@
 - [JIRA](https://www.atlassian.com/software/jira) - Professional and extensible issue tracker. `⊘ Proprietary` `Java`
 - [Jitbit Helpdesk](https://www.jitbit.com/helpdesk/) - Help desk software - simple but powerful. ([Demo](https://www.jitbit.com/saas-helpdesk/trial/)) `⊘ Proprietary` `.NET`
 - [SupportPal](https://www.supportpal.com/) - Powerful help desk software - easy, fast and intuitive. ([Demo](https://www.supportpal.com/product/demo)) `⊘ Proprietary` `PHP`
+- [Telebugs](https://telebugs.com/) - Lightweight error tracker without a subscription (alternative to Sentry). `⊘ Proprietary` `Docker`
 
 
 ### Time Tracking
@@ -328,6 +344,7 @@
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
+- `BSD-3-Clause-No-Military-License` - [BSD 3-Clause No Military License](https://spdx.org/licenses/BSD-3-Clause-No-Military-License.html)
 - `BUSL-1.1` - [Business Source License 1.1](https://spdx.org/licenses/BUSL-1.1.html)
 - `CC-BY-NC-SA-3.0` - [Creative Commons Attribution-NonCommercial-ShareAlike License 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/)
 - `CC-BY-NC-SA-4.0` - [Creative Commons Attribution-NonCommercial-ShareAlike License 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
