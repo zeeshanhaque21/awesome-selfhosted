@@ -16,7 +16,7 @@ services:
       - "3000:3000"
       - "3001:3001"
     volumes:
-      - /home/maker/Documents:/home/abc/Documents
+      - $HOME/Documents:/home/abc/Documents
       - /dev:/dev
     group_add:
       - dialout
